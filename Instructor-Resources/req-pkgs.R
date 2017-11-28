@@ -1,6 +1,6 @@
 ## set CRAN to latest
 r <- getOption('repos')
-mran_date <- Sys.Date() - 1
+mran_date <- "2017-07-01"
 r[["CRAN"]] <- paste0("https://mran.revolutionanalytics.com/snapshot/", mran_date)
 options(repos = r)
 
